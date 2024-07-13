@@ -1,17 +1,30 @@
-import React from "react";
-import logo from "../assets/logo.jpeg"
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.jpeg";
+import Overlay from "../ui/Overlay";
 
 function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function handleToggle() {
+    setIsOpen(!isOpen);
+    document.body.style.overflow = isOpen ? "auto" : "hidden";
+  }
+
+  function handleClose() {
+    setIsOpen(false);
+    document.body.style.overflow = "auto";
+  }
+
   return (
     <>
       <nav className="navbar">
         <Link to="/">
           <figure className="nav__img--wrapper">
-            <img class="nav__logo--img" src={logo} alt="logo" />
+            <img className="nav__logo--img" src={logo} alt="logo" />
           </figure>
         </Link>
-        <div className="nav__link--list">
+        <div className={`nav__link--list ${isOpen ? "open" : ""}`}>
           <ul className="nav__links">
             <Link to="/">
               <li className="nav__link">HOME</li>
@@ -22,7 +35,16 @@ function Nav() {
           </ul>
           <button className="nav__contact--btn">CONTACT</button>
         </div>
+        <div
+          className={`hamburger ${isOpen ? "change" : ""}`}
+          onClick={handleToggle}
+        >
+          <div className="bar1"></div>
+          <div className="bar2"></div>
+          <div className="bar3"></div>
+        </div>
       </nav>
+      <Overlay isOpen={isOpen} onClose={handleClose} />
     </>
   );
 }

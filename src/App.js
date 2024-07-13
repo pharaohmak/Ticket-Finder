@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Nav from "./components/Nav";
 import EventDetails from './ui/EventDetails'
+import Overlay from "./ui/Overlay";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route exact path="/search" element={<Search />} />
             <Route exact path="/event-details" element={<EventDetails/>}/>
+            <Route exact path="/overlay" element={Overlay} />
           </Routes>
         </div>
       </Router>

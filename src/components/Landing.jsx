@@ -55,7 +55,7 @@ function Landing() {
             id="search-input"
             className="search__input landing__search--input"
             type="text"
-            placeholder="Search by Artists, Locations, or Dates . . ."
+            placeholder="search by artists, locations, or dates . . ."
             ref={searchInputRef}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -67,7 +67,7 @@ function Landing() {
           </button>
         </div>
         <div className="header__img--wrapper">
-          <img src={landing} alt="Landing" />
+          <img src={landing} alt="Landing" className="header__img" />
         </div>
       </header>
     </>
