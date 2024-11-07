@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Event Search Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is an event search application that allows users to browse for events by artists, locations, or dates. Built with HTML, CSS, JavaScript, and Bootstrap, this application features a user-friendly interface for searching and displaying event information.
 
-## Available Scripts
+## Features
+- **Search Functionality**
+  - Users can search for events using keywords related to artists, locations, or dates.
+  
+- **Event List**
+  - Displays a list of events matching the search criteria.
+  - Each event includes a title, description, and venue information.
 
-In the project directory, you can run:
+- **Attraction Panel**
+  - Displays details about a specific attraction, including a title, image, and classification.
 
-### `npm start`
+- **Responsive Design**
+  - Utilizes Bootstrap for responsive design, ensuring the application works well on various devices and screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Navigation**
+  - Includes a navigation bar with links to the home page and the event search page.
+  - Features a contact button for user inquiries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Progress Bar**
+  - A progress bar to indicate the loading state during searches.
 
-### `npm test`
+## Code Structure
+- **HTML**: The main structure of the application, including the search input, event list, and attraction panel.
+- **CSS**: Custom styles for the application layout and design.
+- **JavaScript**: Handles the search functionality and dynamic updates to the event list and attraction panel.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## State Management
+- The application does not use a state management library but relies on JavaScript to handle the search input and update the DOM dynamically.
 
-### `npm run build`
+## Data Handling
+- Event and attraction data are managed locally within the JavaScript code. The search functionality filters events based on the user's input.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Potential Improvements
+- Integrate with a real event API to fetch live event data.
+- Implement user authentication and profile management.
+- Enhance the UI/UX with additional interactive features and better styling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
