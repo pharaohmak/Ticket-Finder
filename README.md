@@ -9,11 +9,14 @@
 - **Interactive Elements**: Features such as a progress bar and navigation enhance usability.  
 
 ## Technologies Used
+- **React**: Manages dynamic UI updates and component-based architecture.
 - **HTML**: Provides the structural layout of the application.  
 - **CSS**: Customizes styles for a visually appealing design.  
 - **JavaScript**: Handles search logic, dynamic content updates, and interactivity.  
 - **Bootstrap**: Enables responsive design and ensures consistent styling across devices.  
 
 ## Features
-- **Responsive Interface**: Fully optimized for a smooth experience across devices using Bootstrap.  
-- **Navigation**: A navigation bar with links to the home page and event search page.  
+- **Dynamic Event Search**: Search events by artist, location, or date with an intuitive interface.
+- **Detailed Event Information**: Access detailed attraction data, including titles, categories, and imagery.
+- **Responsive Design**: Fully optimized for smooth usability on desktops, tablets, and smartphones.
+- **Interactive Navigation**: A streamlined navigation bar provides quick access to the home page and event search page. 
