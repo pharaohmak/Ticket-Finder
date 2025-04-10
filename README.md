@@ -1,44 +1,22 @@
-# Event Search Application
+# Ticket Finder
 
-## Overview
-This project is an event search application that allows users to browse for events by artists, locations, or dates. Built with HTML, CSS, JavaScript, and Bootstrap, this application features a user-friendly interface for searching and displaying event information.
+**Ticket Finder** is an intuitive event search application that enables users to discover events by artists, locations, or dates. Developed using  **React**, **HTML**, **CSS**, **JavaScript**, and **Bootstrap**, this project combines responsive design with dynamic search functionality to provide a seamless user experience. 
+
+## Project Highlights
+- **Dynamic Search**: Locate events effortlessly by entering keywords related to artists, locations, or dates.  
+- **Attraction Details**: View detailed information about specific attractions, including titles, images, and classifications.  
+- **Responsive Design**: Built with Bootstrap to ensure compatibility across devices and screen sizes.  
+- **Interactive Elements**: Features such as a progress bar and navigation enhance usability.  
+
+## Technologies Used
+- **React**: Manages dynamic UI updates and component-based architecture.
+- **HTML**: Provides the structural layout of the application.  
+- **CSS**: Customizes styles for a visually appealing design.  
+- **JavaScript**: Handles search logic, dynamic content updates, and interactivity.  
+- **Bootstrap**: Enables responsive design and ensures consistent styling across devices.  
 
 ## Features
-- **Search Functionality**
-  - Users can search for events using keywords related to artists, locations, or dates.
-  
-- **Event List**
-  - Displays a list of events matching the search criteria.
-  - Each event includes a title, description, and venue information.
-
-- **Attraction Panel**
-  - Displays details about a specific attraction, including a title, image, and classification.
-
-- **Responsive Design**
-  - Utilizes Bootstrap for responsive design, ensuring the application works well on various devices and screen sizes.
-
-- **Navigation**
-  - Includes a navigation bar with links to the home page and the event search page.
-  - Features a contact button for user inquiries.
-
-- **Progress Bar**
-  - A progress bar to indicate the loading state during searches.
-
-## Code Structure
-- **HTML**: The main structure of the application, including the search input, event list, and attraction panel.
-- **CSS**: Custom styles for the application layout and design.
-- **JavaScript**: Handles the search functionality and dynamic updates to the event list and attraction panel.
-
-## State Management
-- The application does not use a state management library but relies on JavaScript to handle the search input and update the DOM dynamically.
-
-## Data Handling
-- Event and attraction data are managed locally within the JavaScript code. The search functionality filters events based on the user's input.
-
-## Potential Improvements
-- Integrate with a real event API to fetch live event data.
-- Implement user authentication and profile management.
-- Enhance the UI/UX with additional interactive features and better styling.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Dynamic Event Search**: Search events by artist, location, or date with an intuitive interface.
+- **Detailed Event Information**: Access detailed attraction data, including titles, categories, and imagery.
+- **Responsive Design**: Fully optimized for smooth usability on desktops, tablets, and smartphones.
+- **Interactive Navigation**: A streamlined navigation bar provides quick access to the home page and event search page. 
